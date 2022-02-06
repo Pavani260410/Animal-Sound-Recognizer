@@ -1,0 +1,17 @@
+body {
+    background-color: #e2e8dd;
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    height: 125px;
+    width: 100%;
+    background-color: #95a3a4;
+    color: white;
+    font-family: cursive;
+}
+
+#start {
+    font-size: 20px;
+}
