@@ -10,7 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 
@@ -22,14 +25,14 @@
 
             <h1>Animal Sound Recognizer</h1>
             <h3><b>Note:</b> Try playing sounds of animals like cat, dog and cow</h3>
-        </div>
-        <hr>
+
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray;width:75%;text-align:center;">
+        </div><br>
         <button class="btn btn-success" id="start" onclick="start()">Start</button>
 
         <h4 id="sound">Detected sound of-</h4>
-        <hr><img id="img" src="ear.png" height="300">
+        <h4 id="accuracy">Accuracy-</h4>
+        <img id="img" src="ear.png" height="300">
     </center>
     <script src="main.js"></script>
-</body>
-
-</html>
+</body></html>
